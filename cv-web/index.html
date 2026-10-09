@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luis Carlos Solís Rodríguez | Sistemas y Ciberseguridad</title>
+  <meta name="description" content="Currículum de Luis Carlos Solís Rodríguez: estudiante de Ingeniería en Sistemas con especialización en Ciberseguridad. Busca su primera oportunidad en TI, desarrollo de software o seguridad informática.">
+  <meta name="theme-color" content="#070b12">
+  <meta property="og:title" content="Luis Carlos Solís Rodríguez | Sistemas y Ciberseguridad">
+  <meta property="og:description" content="Ingeniería en Sistemas + Ciberseguridad. Disponibilidad completa. Costa Rica.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="assets/foto.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23070b12'/%3E%3Ctext x='50' y='66' font-size='46' text-anchor='middle' fill='%2322d3ee' font-family='monospace' font-weight='700'%3E%26gt;_%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="logo" href="#inicio" aria-label="Inicio"><span>&gt;</span>lcs<span class="blink">_</span></a>
+    <nav>
+      <a href="#sobre-mi">Perfil</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#formacion">Formación</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="btn btn-ghost btn-sm" id="printBtn" type="button">Descargar PDF</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <p class="eyebrow reveal"><span class="dot"></span> Disponible · Disponibilidad completa</p>
+        <h1 class="name reveal" data-text="Luis Carlos Solís Rodríguez">Luis Carlos<br>Solís Rodríguez</h1>
+        <p class="role reveal"><span class="prompt">$</span> <span id="typed"></span><span class="caret"></span></p>
+        <p class="lead reveal">Estudiante próximo a graduarse en Ingeniería en Sistemas, con especialización en Ciberseguridad en curso. Busco mi primera oportunidad profesional en TI, desarrollo de software o seguridad informática.</p>
+        <div class="cta reveal">
+          <a class="btn btn-primary" href="#contacto">Contáctame</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/luis-rodr%C3%ADguez-315063367" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/LUISKA777" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="ring"></div>
+        <img src="assets/foto.jpg" alt="Foto de Luis Carlos Solís Rodríguez" width="640" height="640" fetchpriority="high">
+        <span class="chip c1">C++ · C# · Java · Python</span>
+        <span class="chip c2">Nmap · Wireshark</span>
+        <span class="chip c3">Linux · Windows · macOS</span>
+      </div>
+      <a class="scroll" href="#sobre-mi" aria-label="Bajar"><span></span></a>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi">
+      <h2 class="title reveal"><span>01</span> Perfil</h2>
+      <div class="grid-2">
+        <div class="term reveal" id="term">
+          <div class="term-bar"><i></i><i></i><i></i><b>luis@portafolio:~</b></div>
+          <pre class="term-body" id="termBody" data-lines='[
+"$ whoami",
+"luis-carlos-solis-rodriguez",
+"$ cat perfil.txt",
+"Analítico · Perfeccionista · Aprendo rápido",
+"Pasión: tecnología y ciberseguridad",
+"$ cat meta.txt",
+"Especializarme en ciberseguridad:",
+"seguridad de sistemas, apps y redes",
+"$ status",
+"[OK] disponibilidad completa"
+]'></pre>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><b data-count="4">0</b><span>lenguajes de programación</span></div>
+          <div class="stat reveal"><b data-count="3">0</b><span>sistemas operativos</span></div>
+          <div class="stat reveal"><b data-count="4" data-suffix=" meses">0</b><span>experiencia en TI</span></div>
+          <div class="stat reveal"><b data-count="2">0</b><span>programas en curso</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia">
+      <h2 class="title reveal"><span>02</span> Experiencia</h2>
+      <div class="timeline">
+        <article class="tl-item card reveal">
+          <span class="tl-dot"></span>
+          <header>
+            <h3>Apoyo en Tecnologías de la Información</h3>
+            <p class="meta">CINDEA de Venecia · Trabajo comunal · 10 ene 2026 – 15 may 2026</p>
+          </header>
+          <ul>
+            <li>Mejoré la red Wi-Fi de la institución: cobertura y rendimiento.</li>
+            <li>Fortalecí la seguridad de la red.</li>
+            <li>Actualicé equipos de cómputo.</li>
+            <li>Diagnostiqué y solucioné problemas con periféricos.</li>
+          </ul>
+          <div class="chips" style="margin-top:16px"><span>Redes</span><span>Wi-Fi</span><span>Seguridad</span><span>Soporte técnico</span><span>Mantenimiento de equipos</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORMACION -->
+    <section id="formacion">
+      <h2 class="title reveal"><span>03</span> Formación</h2>
+      <div class="timeline">
+        <article class="tl-item card reveal">
+          <span class="tl-dot"></span>
+          <header>
+            <h3>Ingeniería en Sistemas</h3>
+            <p class="meta">Universidad Católica de Costa Rica</p>
+          </header>
+          <span class="tag live">En curso · Próximo a finalizar</span>
+        </article>
+        <article class="tl-item card reveal">
+          <span class="tl-dot"></span>
+          <header>
+            <h3>Especialización en Ciberseguridad</h3>
+            <p class="meta">Universidad Fidélitas</p>
+          </header>
+          <span class="tag live">En curso</span>
+        </article>
+        <article class="tl-item card reveal">
+          <span class="tl-dot"></span>
+          <header>
+            <h3>Diploma de Educación Secundaria · Electromecánica</h3>
+            <p class="meta">Colegio Técnico Profesional de Venecia</p>
+          </header>
+          <span class="tag">2017 – 2023</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <h2 class="title reveal"><span>04</span> Habilidades</h2>
+      <div class="skills">
+        <div class="card reveal">
+          <h3><span class="ico">{ }</span> Desarrollo de software</h3>
+          <div class="chips"><span>C++</span><span>C#</span><span>Java</span><span>Python</span><span>POO</span><span>Estructuras de datos</span><span>Git</span></div>
+        </div>
+        <div class="card reveal">
+          <h3><span class="ico">&lt;/&gt;</span> Desarrollo web y datos</h3>
+          <div class="chips"><span>Desarrollo web</span><span>Bases de datos</span><span>Sistemas empresariales</span></div>
+        </div>
+        <div class="card reveal">
+          <h3><span class="ico">⌘</span> Sistemas operativos</h3>
+          <div class="chips"><span>Linux</span><span>Windows</span><span>macOS</span><span>Línea de comandos</span><span>VirtualBox</span></div>
+        </div>
+        <div class="card reveal">
+          <h3><span class="ico">⇄</span> Redes</h3>
+          <div class="chips"><span>TCP/IP</span><span>HTTP/HTTPS</span><span>DNS</span><span>Enrutamiento</span><span>Análisis de tráfico</span></div>
+        </div>
+        <div class="card reveal">
+          <h3><span class="ico">⛨</span> Ciberseguridad</h3>
+          <div class="chips"><span>Nmap</span><span>Wireshark</span><span>Phishing · Malware · Fuerza bruta</span><span>Identificación de vulnerabilidades</span><span>Intro a pentesting</span></div>
+        </div>
+        <div class="card reveal">
+          <h3><span class="ico">✓</span> QA y herramientas</h3>
+          <div class="chips"><span>Reporte de errores</span><span>Pruebas funcionales</span><span>Documentación de incidencias</span><span>Microsoft 365</span></div>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div class="card reveal">
+          <h3>Competencias</h3>
+          <div class="chips soft"><span>Pensamiento analítico</span><span>Resolución de problemas</span><span>Atención al detalle</span><span>Atención al cliente</span><span>Innovación</span><span>Aprendizaje continuo</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Idiomas</h3>
+          <ul class="langs">
+            <li><span>Español</span><i style="--w:100%"></i><em>Nativo</em></li>
+            <li><span>Inglés</span><i style="--w:30%"></i><em>A2 · mejorando</em></li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3>Información adicional</h3>
+          <ul class="plain">
+            <li>Licencia de conducir</li>
+            <li>Disponibilidad completa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJETIVO + CONTACTO -->
+    <section id="contacto">
+      <h2 class="title reveal"><span>05</span> Contacto</h2>
+      <div class="card goal reveal">
+        <h3>Objetivo profesional</h3>
+        <p>Incorporarme a una empresa del área tecnológica para obtener experiencia profesional mientras finalizo Ingeniería en Sistemas y continúo mi formación en Ciberseguridad. A mediano plazo, crecer hacia funciones de seguridad informática aportando mis conocimientos en desarrollo, sistemas y redes.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact card reveal" href="mailto:lr4658821@gmail.com"><span class="ico">@</span><div><small>Correo</small><b>lr4658821@gmail.com</b></div></a>
+        <a class="contact card reveal" href="tel:+50660274430"><span class="ico">☎</span><div><small>Teléfono</small><b>+506 6027 4430</b></div></a>
+        <a class="contact card reveal" href="https://www.linkedin.com/in/luis-rodr%C3%ADguez-315063367" target="_blank" rel="noopener"><span class="ico">in</span><div><small>LinkedIn</small><b>luis-rodríguez</b></div></a>
+        <a class="contact card reveal" href="https://github.com/LUISKA777" target="_blank" rel="noopener"><span class="ico">&lt;/&gt;</span><div><small>GitHub</small><b>LUISKA777</b></div></a>
+        <div class="contact card reveal"><span class="ico">⌖</span><div><small>Ubicación</small><b>San Carlos, Venecia, Alajuela, Costa Rica</b></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Luis Carlos Solís Rodríguez · Hecho con HTML, CSS y JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
